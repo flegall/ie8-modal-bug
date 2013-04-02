@@ -1,0 +1,62 @@
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+/*
+.hover-group  .hover-toggle a{
+    visibility: visible;
+    /*
+    display: none;
+    visibility: hidden;
+}
+    */
+
+.hover-group  .hover-toggle {
+    visibility: hidden;
+    /*
+    display: none;
+    visibility: hidden;
+    */
+}
+
+.hover-group:hover .hover-toggle {
+    display: block;
+    visibility: visible;
+    /*
+    visibility: visible;
+    display: block;
+    */
+}
+
+.hover-toggle:hover {
+    cursor: pointer;
+}
+
+.release-actions {
+    margin-left: 18px;
+}
+
+#newReleaseForm .control-label {
+    text-align: left;
+    width: 130px;
+}
+
+.expander-controls {
+    cursor: pointer;
+    margin-top: 12px;
+    margin-right: 15px;
+}
+
+.table-header {
+    background-color: #ddd;
+    padding: 12px 20px;
+}
+
+.task-duedate {
+    color: #999;
+}
+
+td.release {
+
+}
