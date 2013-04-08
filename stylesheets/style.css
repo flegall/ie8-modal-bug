@@ -3,30 +3,12 @@ body {
   padding-bottom: 40px;
 }
 
-/*
-.hover-group  .hover-toggle a{
-    visibility: visible;
-    /*
-    display: none;
-    visibility: hidden;
-}
-    */
-
 .hover-group  .hover-toggle {
     visibility: hidden;
-    /*
-    display: none;
-    visibility: hidden;
-    */
 }
 
 .hover-group:hover .hover-toggle {
-    display: block;
     visibility: visible;
-    /*
-    visibility: visible;
-    display: block;
-    */
 }
 
 .hover-toggle:hover {
