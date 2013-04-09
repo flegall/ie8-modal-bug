@@ -1038,7 +1038,9 @@
     $target
       .modal(option)
       .one('hide', function () {
-        $this.focus()
+        try {
+          $this.focus()
+        } catch (error) {} // focus() may throw an error on IE8
       })
     })
 
